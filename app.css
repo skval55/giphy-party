@@ -1,0 +1,15 @@
+#gif-holder{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+img{
+    width: auto;
+    height: 300px;
+    margin: 20px;
+    border: red solid 3px;
+    border-radius: 8px
+   
+}
