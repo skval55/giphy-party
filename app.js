@@ -2,7 +2,7 @@ console.log("Let's get this party started!");
 
 async function getGif(search) {
   let response = await axios.get(
-    `http://api.giphy.com/v1/gifs/search?q=${search}&api_key=AZYfF3rn5W6vbmDeUBXvt4LsH8FgBO0W`
+    `https://api.giphy.com/v1/gifs/search?q=${search}&api_key=AZYfF3rn5W6vbmDeUBXvt4LsH8FgBO0W`
   );
   const arrLength = response.data.data.length;
   randNum = Math.floor(Math.random() * arrLength);
